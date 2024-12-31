@@ -1,0 +1,17 @@
+/* General styles for the projects page */
+.projects-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f4f8; /* Light blue-gray background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Main content container */
+.main-content h1 {
+  font-size: 2rem;
+  color: #333; /* Dark gray */
+  text-align: center;
+}

@@ -1,0 +1,70 @@
+/* General styles for the page */
+.landing-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* Light gray background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main content container */
+.main-content {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* Hero section */
+.hero {
+  padding: 20px;
+}
+
+/* Logo container */
+.logo-home-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo-home {
+  max-width: 100px;
+  height: auto;
+}
+
+/* Content styles */
+.content-home h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.content-home h3 {
+  font-size: 1.25rem;
+  color: #6c757d;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn-started {
+  display: block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.btn-started:hover {
+  background-color: #0056b3;
+}
